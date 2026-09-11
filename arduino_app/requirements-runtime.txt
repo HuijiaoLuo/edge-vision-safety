@@ -1,0 +1,5 @@
+# For local runtime simulation only.
+# Do not install on Arduino if the App Lab environment already provides these packages.
+numpy>=1.26,<3
+opencv-python-headless>=4.10,<5
+PyYAML>=6,<7

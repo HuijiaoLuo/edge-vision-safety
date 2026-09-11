@@ -1,0 +1,19 @@
+{
+  "filename": "masked_demo.jpg",
+  "timestamp": "masked_demo",
+  "face_count": 1,
+  "faces": [
+    {
+      "face_id": 1,
+      "name": "masked_demo_rider",
+      "has_helmet": true,
+      "bbox": {
+        "x": 97,
+        "y": 106,
+        "w": 87,
+        "h": 108
+      }
+    }
+  ],
+  "source_note": "Face area masked for public repository demo."
+}

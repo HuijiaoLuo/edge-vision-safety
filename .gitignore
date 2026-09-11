@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+
+# Private/local data
+TRAIN_READY/
+dataset_helmet/
+dataset_train.json
+helmet_cv/dataset*/
+helmet_cv/yolo_dataset/
+Bike Helmet Detection.v2i.yolov8/
+*.zip
+
+# Model outputs and biometric references
+helmet_cv/runs/
+*.pt
+*.pth
+*.onnx
+*.npy
+
+# Local environments
+.venv/
+.tmp_face_eval/
+.cache/

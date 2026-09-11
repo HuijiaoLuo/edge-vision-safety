@@ -1,0 +1,10 @@
+dataset_dir: /app/dataset_helmet
+dataset_json: /app/dataset_train.json
+jpeg_quality: 95
+
+require_registered_user: true
+helmet_threshold: 0.40
+rider_cosine_threshold: 0.40
+face_recognition_model_path: /app/models/face_recognition.onnx
+face_landmark_model_path: /app/models/face_detection_yunet.onnx
+registered_users_dir: /app/users

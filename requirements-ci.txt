@@ -1,0 +1,2 @@
+# CI uses Python standard library only.
+# Training/runtime dependencies are listed separately.
