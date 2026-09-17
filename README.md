@@ -8,6 +8,10 @@ This repository contains the helmet model-training pipeline and edge-runtime log
 
 The source files under `helmet_cv/` and `arduino_app/python/` are my original or modified contribution. The repository presents the reusable training pipeline, inference modules, and safety decision logic; it does not claim that the complete hackathon application was developed from scratch.
 
+The original Arduino App Lab starter application was provided by the hackathon organizers and is described here only for system context; it is not redistributed in this repository.
+
+My contribution included camera-data recovery, helmet-classifier fine-tuning with hard negatives, ONNX edge export, and runtime safety logic for rider identity, helmet status, and multi-person lockout.
+
 The final system was validated on-device under live rider, helmet, and multi-person test conditions. The Arduino App Lab scaffold and other organizer-provided files are intentionally excluded.
 
 ## What It Does
