@@ -5,6 +5,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 REQUIRED_FILES = [
     "README.md",
+    "NOTICE",
     "arduino_app/config.example.yaml",
     "arduino_app/python/helmet_classifier.py",
     "arduino_app/python/rider_identity.py",

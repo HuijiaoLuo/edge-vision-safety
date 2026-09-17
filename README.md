@@ -4,6 +4,12 @@ Clean portfolio release of my contribution to the Eurosensors 2026 Hackathon.
 
 This repository contains the helmet model-training pipeline and edge-runtime logic for a scooter safety lock. Organizer-provided Arduino App Lab starter files, third-party assets, participant images, trained face embeddings, and model binaries are not included.
 
+## Scope and Provenance
+
+The source files under `helmet_cv/` and `arduino_app/python/` are my original or modified contribution. The repository presents the reusable training pipeline, inference modules, and safety decision logic; it does not claim that the complete hackathon application was developed from scratch.
+
+The final system was validated on-device under live rider, helmet, and multi-person test conditions. The Arduino App Lab scaffold and other organizer-provided files are intentionally excluded.
+
 ## What It Does
 
 The scooter remains locked unless:
@@ -78,6 +84,12 @@ Runtime model files are expected at:
 ## Privacy
 
 Raw participant images and `users/*.npy` face embeddings are intentionally excluded. The included demo image has the face region masked.
+
+The tracked demo JPEG was checked for EXIF, XMP, IPTC, and JPEG comment metadata. It contains none, and the accompanying JSON uses only the neutral label `masked_demo_rider`; original filenames, names, and team information are not retained.
+
+## License
+
+The Apache-2.0 license in `LICENSE` applies only to original source code authored or modified for this release. It does not relicense organizer-provided files, third-party assets or models, public datasets, participant images, or biometric embeddings; those materials are excluded or remain subject to their respective terms.
 
 ## CI
 
